@@ -11,9 +11,11 @@ jobs:
       resource_class: medium
     steps:
       - checkout
-      - node/install-packages:
-          pkg-manager: yarn
-          with-cache: true
+      - run:
+          name: Enable Corepack and Install Dependencies
+          command: |
+            corepack enable
+            yarn install --immutable
       - run:
           name: Lint the Source Code
           command: yarn lint

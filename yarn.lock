@@ -1355,14 +1355,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@qubit-ltd/eslint-config@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "@qubit-ltd/eslint-config@npm:2.0.0"
+"@qubit-ltd/eslint-config@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "@qubit-ltd/eslint-config@npm:2.0.1"
   dependencies:
     "@eslint/js": "npm:^9.35.0"
     eslint: "npm:^9.35.0"
     eslint-plugin-import: "npm:^2.31.0"
-  checksum: 428972d20dcde8b947af4dd10644a51d3f2e9a9f6cea43f71e35362a339fd764ac8cf539d6c4f8297ba70cccd674acb55d809493976c657deb50e5cf169cdde6
+  checksum: 568956019d4766c17f46a0758638c879d6ad2a8c88ebd5a015a7140d4cb1477ef181a6ca52cd8a35d78f1c0de47b632c5a0c50bc45063a21d519e49aeba09eb6
   languageName: node
   linkType: hard
 
@@ -1384,7 +1384,7 @@ __metadata:
     "@babel/plugin-transform-runtime": "npm:^7.28.5"
     "@babel/preset-env": "npm:^7.28.5"
     "@babel/runtime": "npm:^7.28.4"
-    "@qubit-ltd/eslint-config": "npm:^2.0.0"
+    "@qubit-ltd/eslint-config": "npm:^2.0.1"
     "@qubit-ltd/jsdoc-minami": "npm:^1.5.3"
     "@rollup/plugin-alias": "npm:^6.0.0"
     "@rollup/plugin-babel": "npm:^6.1.0"

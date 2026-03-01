@@ -3,7 +3,7 @@
 [![npm package](https://img.shields.io/npm/v/@qubit-ltd/rollup-builder.svg)](https://npmjs.com/package/@qubit-ltd/rollup-builder)
 [![License](https://img.shields.io/badge/License-Apache-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 [![中文文档](https://img.shields.io/badge/文档-中文版-blue.svg)](README.zh_CN.md)
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/Haixing-Hu/rollup-builder/tree/master.svg?style=shield)](https://dl.circleci.com/status-badge/redirect/gh/Haixing-Hu/rollup-builder/tree/master)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/qubit-ltd/rollup-builder/tree/master.svg?style=shield)](https://dl.circleci.com/status-badge/redirect/gh/qubit-ltd/rollup-builder/tree/master)
 
 `rollup-builder` provides a utility function to simplify the process of building 
 JavaScript libraries using the [Rollup] bundler. It allows you to generate various 

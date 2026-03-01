@@ -3,7 +3,7 @@
 [![npm package](https://img.shields.io/npm/v/@qubit-ltd/rollup-builder.svg)](https://npmjs.com/package/@qubit-ltd/rollup-builder)
 [![License](https://img.shields.io/badge/License-Apache-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 [![English Document](https://img.shields.io/badge/Document-English-blue.svg)](README.md)
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/Haixing-Hu/rollup-builder/tree/master.svg?style=shield)](https://dl.circleci.com/status-badge/redirect/gh/Haixing-Hu/rollup-builder/tree/master)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/qubit-ltd/rollup-builder/tree/master.svg?style=shield)](https://dl.circleci.com/status-badge/redirect/gh/qubit-ltd/rollup-builder/tree/master)
 
 `rollup-builder` 提供了一个工具函数，用于简化使用 [Rollup] 打包器构建 JavaScript 库的过程。
 它允许您生成多种格式，如 CommonJS (CJS)、ES Module (ESM) 和 Universal Module 

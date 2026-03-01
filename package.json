@@ -6,12 +6,12 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Haixing-Hu/rollup-builder.git"
+    "url": "git+https://github.com/qubit-ltd/rollup-builder.git"
   },
   "bugs": {
-    "url": "https://github.com/Haixing-Hu/rollup-builder/issues"
+    "url": "https://github.com/qubit-ltd/rollup-builder/issues"
   },
-  "homepage": "https://github.com/Haixing-Hu/rollup-builder",
+  "homepage": "https://github.com/qubit-ltd/rollup-builder",
   "keywords": [
     "JavaScript",
     "rollup",
@@ -43,9 +43,7 @@
     "lint": "eslint ./src",
     "doc": "jsdoc -c jsdoc.json",
     "build:all": "npm run doc && npm run build:dev && npm run build",
-    "deploy": "npm run lint && npm run build:all && npm publish --registry='https://npm.qubit.ltd/' --access public",
-    "deploy:public": "npm run lint && npm run build:all && npm publish --registry='https://registry.npmjs.org/' --access public",
-    "deploy:all": "npm run deploy && npm publish --registry='https://registry.npmjs.org/' --access public"
+    "deploy": "npm run lint && npm run build:all && npm publish --registry='https://registry.npmjs.org/' --access public"
   },
   "peerDependencies": {
     "@babel/core": "^7.28.5",

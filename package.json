@@ -1,6 +1,6 @@
 {
   "name": "@qubit-ltd/rollup-builder",
-  "version": "1.8.14",
+  "version": "1.8.15",
   "description": "An tool for creating multi-format JavaScript libraries with Rollup.",
   "author": "Haixing Hu",
   "license": "Apache-2.0",
@@ -43,7 +43,7 @@
     "lint": "eslint ./src",
     "doc": "jsdoc -c jsdoc.json",
     "build:all": "npm run doc && npm run build:dev && npm run build",
-    "deploy": "npm run lint && npm run build:all && npm publish --registry='https://registry.npmjs.org/' --access public"
+    "deploy": "npm run lint && npm run build:all && npm publish --@qubit-ltd:registry='https://registry.npmjs.org/' --access public"
   },
   "peerDependencies": {
     "@babel/core": "^7.28.5",
@@ -65,7 +65,7 @@
     "@babel/plugin-transform-runtime": "^7.28.5",
     "@babel/preset-env": "^7.28.5",
     "@babel/runtime": "^7.28.4",
-    "@qubit-ltd/eslint-config": "^2.0.1",
+    "@qubit-ltd/eslint-config": "^2.0.2",
     "@qubit-ltd/jsdoc-minami": "^1.5.3",
     "@rollup/plugin-alias": "^6.0.0",
     "@rollup/plugin-babel": "^6.1.0",
